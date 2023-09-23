@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: #FF5500;
+    padding: 15px 0px 0px 0px
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    color: aliceblue;
+    text-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#h2 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 60px;
+    cursor: pointer;
+}
+
+h2:hover {
+    background: #65a1835e;
+}
+
+#tabela {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+table {
+    display: table;
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    color: grey;
+}
+
+#clube {
+    text-align: left;
+}
+
+tbody tr, td {
+    text-align: center;
+}
+
+tbody tr {
+    cursor: pointer;
+    height: 60px;
+}
+
+tbody tr:hover {
+    background: #58575781;
+}
+
+.primeiros {
+    border-left: 4px solid blue;
+}
+
+.segundos {
+    border-left: 4px solid orange;
+}
+
+.terceiros {
+    border-left: 4px solid #008B05;
+}
+
+.rebaixamento {
+    border-left: 4px solid red;
+}
+
+.quartos {
+    border-left: 4px solid #990084;
+}
